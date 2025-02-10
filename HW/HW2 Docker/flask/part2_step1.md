@@ -1,34 +1,29 @@
 # User Stories
 
-1. **As a vanilla git power-user that has never seen GiggleGit before, I want to...**  
-   - Have a little more fun with git and spice up my merges so I can have some fun.
-   - This will also help generate some more team "culture" so my team enjoys their work a bit more.
+1. As a vanilla git power-user that has never seen GiggleGit before, I want to easily and quickly add GiggleGit to my projects.
 
-2. **As a team lead onboarding an experienced GiggleGit user, I want to...**  
-   - Seemlessly integrate this user very fast so we don't waste time.
-   - Which involves having intensive documentation, which I don't want to write beacuse that sucks and is time consuming.
+2. As a team lead onboarding an experienced GiggleGit user, I want to provide clear documentation for my team to integrate easily.
 
 ## Third User Story  
-1. **As a veteran and loving GiggleGit user, I want to...**
-   - Continue to be surprised and entertained by merge memes so it doesn't get boring or annoying
+1. As a veteran and loving GiggleGit user, I want to be able to integrate GiggleGit into every project I create automatically.
 
 ### Task
-- Ensure memes are fresh and funny every time.
+- Integrate GiggleGit with git platforms.
 
-### Tickets  
+### Tickets
 
-1. **Title:** Meme rotation
+1. **Title:** Implement GitHub/Git account linking feature  
    **Details:**  
-   - Develop a system that cycles through a set of memes to ensure that users are presented with fresh and relevant memes. 
-   - Periodic updates to the memes to keep content current and engaging.  
-   - Add a feedback mechanism for users to rate memes 
+   - Develop a secure OAuth-based system to allow users to link their GitHub or Git account to GiggleGit.  
+   - Ensure the feature supports major Git platforms.
+   - Test the feature across different platforms.
 
-2. **Title:** Meme customization
+2. **Title:** Enable automatic GiggleGit initialization for new projects  
    **Details:**  
-   - Create a feature that allows users to upload their own memes for the community. 
-   - Ensure that user-uploaded memes are moderated to maintain appropriateness and quality.  
-   - Provide options for teams to share custom meme libraries within their organization.  
+   - Create a feature that automatically initializes GiggleGit in every new project created by the user after account linking.  
+   - Add a toggle in the user settings to allow users to enable or disable this feature.  
+   - Test the feature with various project structures and workflows to confirm reliability.  
 
 # Why "As a user I want to be able to authenticate on a new machine" is not a user story  
 
-This statement is not a user story because it lacks the context of who the user is and why they want to authenticate on a new machine.
+This lacks the context of who the user is. Just saying a user does not give a clear definition.
