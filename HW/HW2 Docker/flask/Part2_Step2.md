@@ -4,12 +4,12 @@
 
 ### **Non-Functional Requirements**  
 
-1. **Access Control**  
+1. **Control Access to Configuration**  
    - **Functional Requirements**
      - PMs shall have exclusive access to an admin dashboard to define and modify snicker configuration.  
-     - PMs can change who has access and grant admin privilages as necessary.
+     - Only PMs can change who has access and grant admin privilages as necessary.
 
-2. **Study Validity**  
+2. **Create a Valid Study**  
    - **Functional Requirement**
      - Randomly select a user base for study, including people from all positions, use cases, and experience level.
      - Randomly assign these users into groups, spreading the accross controls and variables.
